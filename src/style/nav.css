@@ -1,0 +1,31 @@
+.navbar {
+   
+    background-color: darkgrey;
+    box-shadow: 0px 0px 8px black;
+    
+
+}
+
+.logo, .nav-link  {
+    color: rgb(139, 34, 34);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+        
+}
+
+.ni-dsktp {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .ni-mobile {
+        display: none;
+    }
+    
+    .ni-dsktp {
+        display: block;
+    }
+
+    
+}

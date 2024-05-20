@@ -1,0 +1,71 @@
+.imagem {
+    opacity: 0.8;
+    background-color: black;
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 54% 31%;   
+}
+
+.carousel-caption {
+    margin-bottom: 4rem;
+}
+
+.cap-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-leg, .carousel-sub {
+    font-family: "Roboto", sans-serif;
+    text-align: start;
+    text-align: start;
+}
+
+.carousel-leg {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.carousel-sub {
+    font-size: 24px;
+    padding-bottom: 1.5em;
+}
+
+.botao-container {
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 162px;
+    height: 40px;
+    border-color: transparent;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: -4px 0px 10px lightblue;
+}
+
+
+    
+@media screen and (min-width: 768px) {
+    .imagem {
+        height: 800px;
+        width: 100%;
+        object-position: 54% 31%;
+    
+        
+    }
+    
+    
+    .carousel-leg {
+        font-size: 100px;
+    }
+    
+}
