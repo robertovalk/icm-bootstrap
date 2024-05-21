@@ -8,7 +8,7 @@
 }
 
 .carousel-caption {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .cap-container {
@@ -63,6 +63,9 @@
         
     }
     
+    .carousel-caption {
+        margin-bottom: 12rem;
+    }
     
     .carousel-leg {
         font-size: 100px;
