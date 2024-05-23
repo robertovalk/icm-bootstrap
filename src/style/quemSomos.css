@@ -1,0 +1,54 @@
+.quemSomos-container {
+    padding: 52px 24px;
+    
+}
+
+.quemSomos_text {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+.quemSomos-textTitle, 
+.quemSomos-textSub,
+.quemSomos-btn {
+    font-family: "Roboto", sans-serif;
+}
+
+.quemSomos-textTitle {
+    font-size: 32px;
+}
+
+.quemSomos-textSub {
+    font-size: 20px;
+}
+
+.quemSomos-btn {
+    width: 162px;
+    height: 40px;
+    border: 1px solid #707070;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 19px;
+}
+
+.quemSomos-imgContainer {
+    margin-top: 3.5em;
+}
+
+.quemSomos-img {
+    width: 378px;
+    height: 320px;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .quemSomos-container {
+        display: flex;
+    }
+}

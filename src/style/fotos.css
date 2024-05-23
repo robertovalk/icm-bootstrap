@@ -1,0 +1,22 @@
+.modal-fotos-icm {
+    margin-top: 2em;
+    
+}
+
+.fotos-icm {
+    display: flex;
+    gap: 24px;
+}
+
+.pai-foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.foto {
+    width: 167px;
+    height: 167px;
+
+}
