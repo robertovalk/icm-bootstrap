@@ -1,0 +1,42 @@
+.container-services {
+    background-color: #AEB3B9;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+
+.services-text {
+  color: white;
+}
+
+
+.service-image {
+    position: relative;
+    width: 152px;
+    height: 111px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: auto;
+  }
+  .service-caption {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 5px 0;
+  }
+
+  .service-caption span {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    color: red;
+  }
+
+  .service-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+  }

@@ -1,0 +1,24 @@
+.footer-text p, .footer-title a {
+    font-family: "Roboto", sans-serif;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: relative;
+}
+
+
+.rodape-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    bottom: 3em;
+    right: 3em;
+}
+
+.footer-title a {
+    color: red;
+}

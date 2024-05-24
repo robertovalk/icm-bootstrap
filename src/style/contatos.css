@@ -1,0 +1,24 @@
+.container-contatos {
+    background-color: #AEB3B9;
+    padding-top: 40px;
+    padding-bottom: 51px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+}
+.contatos-cards{
+    margin-top: 40px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.contact-img {
+    width: 151px;
+    height: 178px;
+    object-fit: cover;
+}
+.whatsapp-links a {
+    margin: 0 5px;
+    font-size: 24px;
+}
