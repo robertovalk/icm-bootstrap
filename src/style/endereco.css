@@ -11,6 +11,11 @@
     margin-bottom: 10px;
 }
 
+.endereco-texto p {
+    padding: 0 16px;
+    text-align: center;
+}
+
 .endereco-map {
     width: 300px; 
     height: 150px;
