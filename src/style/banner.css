@@ -1,6 +1,6 @@
 .imagem {
     opacity: 0.8;
-    background-color: black;
+    background-color: #333333;
     height: 600px;
     width: 100%;
     object-fit: cover;
@@ -79,7 +79,12 @@
     }
     
     .carousel-leg {
-        font-size: 100px;
+        font-size: 50px;
+        text-shadow: 1px 0px 10px black;
+    }
+
+    .carousel-sub {
+        font-size: 20px;
     }
     
 }

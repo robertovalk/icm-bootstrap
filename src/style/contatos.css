@@ -36,6 +36,10 @@
     opacity: 1;
 }
 
+.text-center p {
+    color: #333333
+}
+
 .link-btn {
     display: flex;
     align-items: center;
@@ -56,6 +60,7 @@
 }
 
 .contatos-btn {
+    display: flex;
     width: 162px;
     height: 40px;
     border-color: transparent;
@@ -73,4 +78,35 @@
 
 .contatos-btn a {
     color: #FFFFFF;
+}
+
+@media screen and (min-width: 1024px) {
+    .container-contatos {
+        display: none;
+        
+    }
+
+    .container-contatos-dsktp {
+        background-color: #F5F5F5;
+        padding: 2em 0;
+    }
+
+    .text-center {
+        width: 462px;
+        height: 288px;
+    }
+
+    .text-center p {
+        font-size:22px;
+        margin-top: 20px;
+        color: #333333
+    }
+
+    .contatos-btn {
+        width: 320px;
+        height: 70px;
+        font-size: 28px;
+    }
+
+
 }

@@ -32,39 +32,5 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-const track = document.querySelector('.carousel-track');
-const leftArrow = document.querySelector('.left-arrow');
-const rightArrow = document.querySelector('.right-arrow');
-const images = document.querySelectorAll('.carousel-img');
-const modal = document.getElementById('fullscreen-modal');
-const modalImg = document.getElementById('fullscreen-image');
-const closeBtn = document.querySelector('.close');
-const imageWidth = images[0].clientWidth;
 
-let currentIndex = 0;
-
-rightArrow.addEventListener('click', () => {
-  if (currentIndex < images.length - 5) {
-    currentIndex++;
-    track.style.transform = `translateX(-${currentIndex * imageWidth}px)`;
-  }
-});
-
-leftArrow.addEventListener('click', () => {
-  if (currentIndex > 0) {
-    currentIndex--;
-    track.style.transform = `translateX(-${currentIndex * imageWidth}px)`;
-  }
-});
-
-images.forEach(img => {
-  img.addEventListener('click', () => {
-    modal.style.display = 'block';
-    modalImg.src = img.src;
-  });
-});
-
-closeBtn.addEventListener('click', () => {
-  modal.style.display = 'none';
-});
 

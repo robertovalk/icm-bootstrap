@@ -55,6 +55,47 @@
     font-family: "Roboto", sans-serif;
 }
 
+@media screen and (min-width: 768px) {
+    .wpp-sub {
+        font-size: 11px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .nossoEspaco-container {
+        display: none;
+    }
+
+    .nossoEspaco-container-dsktp {
+        background-color: #F5F5F5;
+        padding: 5em 0;
+    }
+
+    .nossoEspaco-Title, h2 {
+        font-size: 38px;
+        font-weight:600 ;
+    }
+
+    .icon-salaCabines, 
+    .icon-coworking, 
+    .icon-estacionamento, 
+    .icon-auditorio, 
+    .icon-endereco, 
+    .icon-wifi {
+        width: 425px;
+        height: 390px;
+    }
+
+    .wpp-title{
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .wpp-sub {
+        font-size: 28px;
+    }
+}
 
 
 

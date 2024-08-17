@@ -21,6 +21,7 @@
 .quemSomos-textTitle {
     font-size: 32px;
     text-align: start;
+    font-weight: 600;
 }
 
 .quemSomos-textSub {
@@ -60,7 +61,43 @@
 }
 
 @media screen and (min-width: 768px) {
+    
+    .quemSomos-img {
+        width: 549px;
+        height: 280px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
     .quemSomos-container {
         display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 2em 5em;
     }
+
+    .quemSomos-img {
+        height: 380px;
+    }
+
+    .quemSomos-textTitle {
+        font-size: 38px;
+        text-align: start;
+    }
+    
+    .quemSomos-textSub {
+        font-size: 28px;
+    }
+
+    .quemSomos_text {
+        width: 100%;
+    }
+
+    .quemSomos-btn {
+        width: 320px;
+        height: 70px;
+        font-size: 28px;
+        
+    }
+
 }
