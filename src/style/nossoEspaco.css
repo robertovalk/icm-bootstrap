@@ -1,3 +1,7 @@
+.nossoEspaco-container-dsktp {
+    display: none;
+}
+
 .nossoEspaco-container {
     padding: 2em 0;
     background-color: #F5F5F5;
@@ -63,6 +67,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .nossoEspaco-container-dsktp {
+        display: block;
+    }
+    
     .nossoEspaco-container {
         display: none;
     }

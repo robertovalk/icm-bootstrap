@@ -1,3 +1,7 @@
+.container-services-dsktp {
+  display: none;
+}
+
 .container-services {
     background-color: #FFFFFF;
     padding-top: 3px;
@@ -67,6 +71,11 @@
   }
 
   @media screen and (min-width: 1024px) {
+
+    .container-services-dsktp {
+      display: block;
+    }
+
     .container-services {
       display: none;
     }
