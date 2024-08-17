@@ -1,24 +1,50 @@
 .footer-text p, .footer-title a {
     font-family: "Roboto", sans-serif;
+    color: #ffffff;
+}
+
+.footer-text img {
+    width: 103px;
 }
 
 .rodape {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    position: relative;
+    padding: 3em 2em;
+    background-color: #E6322B;
 }
 
-
-.rodape-icons {
+.rodape-links {
+    margin-top: 2em;
     display: flex;
+    flex-direction: column;
+}
+
+.links-ul {
+    display: flex;
+    flex-direction: column;
+    gap: .9em;
+   
+}
+
+.links-ul a {
+    color: #ffffff;
+}
+
+.rodape-info {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: #ffffff;
+}
+
+.info-icons {
+    display: flex;
+    gap: .8em;
     align-items: center;
-    gap: 15px;
-    position: absolute;
-    bottom: 3em;
-    right: 3em;
+    justify-content: end;
+    margin-top: 20px;
 }
 
 .footer-title a {
-    color: red;
+    color: #ffffff;
 }

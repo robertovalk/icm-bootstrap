@@ -1,11 +1,13 @@
 .container-planos {
     margin: 40px 0;
     max-width: 1025px;
+    
 }
 
 .planos-title {
     color: black;
-    text-align: start;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .planos-sub {
@@ -38,6 +40,6 @@
     font-size: 20px;
     background-color: brown;
     color: white;
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
     padding: 7px 15px;
 }

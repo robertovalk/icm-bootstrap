@@ -17,41 +17,52 @@
 }
 
 .carousel-leg, .carousel-sub {
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
     text-align: start;
     text-align: start;
 }
 
 .carousel-leg {
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 500;
 }
 
 .carousel-sub {
-    font-size: 24px;
+    font-size: 17px;
+    padding-top: 1.5em;
     padding-bottom: 1.5em;
 }
 
 .botao-container {
     display: flex;
-    align-items: center;
-    gap: 0.6em;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px
     
+}
+
+.botao-container_icones {
+    display: flex;
+    gap: 1.0em;
+}
+
+.icones-link {
+    color: #ffffff;
 }
 
 .botao {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: #E6322B;
+    color:  #ffffff;
     width: 162px;
     height: 40px;
     border-color: transparent;
     border-radius: 10px;
     outline: none;
-    box-shadow: -4px 0px 10px lightblue;
+    
 }
-
 
     
 @media screen and (min-width: 768px) {

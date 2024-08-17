@@ -1,0 +1,78 @@
+.carousel-container {
+    position: relative;
+    width: inherit;
+    overflow: hidden;
+  }
+  
+  .carousel {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-img {
+    width: 20%; /* Cada imagem ocupará 20% da largura, mostrando 5 imagens por vez */
+    flex-shrink: 0;
+    cursor: pointer;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    margin: 0% 1%;
+  }
+  
+  .carousel-img:hover {
+    transform: scale(1.05);
+  }
+  
+  .carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  
+  /* Estilo do modal para tela cheia */
+  .fullscreen-modal {
+    display: none;
+    position: fixed;
+    z-index: 1001;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .fullscreen-modal .close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .fullscreen-img {
+    display: block;
+    max-width: 90%;
+    max-height: 80%;
+    margin: 5% auto;
+    border-radius: 10px;
+  }

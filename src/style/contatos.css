@@ -1,11 +1,18 @@
 .container-contatos {
-    background-color: #AEB3B9;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
     padding-top: 40px;
     padding-bottom: 51px;
     padding-left: 16px;
     padding-right: 16px;
     text-align: center;
 }
+
+.container-contatos h2 {
+    color: #333333;
+}
+
 .contatos-cards{
     margin-top: 40px;
     margin-bottom: 35px;
@@ -13,12 +20,57 @@
     justify-content: center;
     gap: 8px;
 }
-.contact-img {
-    width: 151px;
-    height: 178px;
-    object-fit: cover;
+
+.text-center {
+    width: 162px;
+    height: 144px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    gap: 10px;
+    padding: 14px;
+    border-radius: 8px;
+    opacity: 1;
 }
-.whatsapp-links a {
+
+.link-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    
+}
+
+
+.social-links {
+    display: flex;
+}
+
+.social-links a {
     margin: 0 5px;
-    font-size: 24px;
+    display: flex;
+    
+}
+
+.contatos-btn {
+    width: 162px;
+    height: 40px;
+    border-color: transparent;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 19px;
+    background: #E6322B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.contatos-btn a {
+    color: #FFFFFF;
 }

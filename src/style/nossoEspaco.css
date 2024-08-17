@@ -1,11 +1,12 @@
 .nossoEspaco-container {
-    padding: 0 0px 31px 0px;
+    padding: 2em 0;
+    background-color: #F5F5F5;
 }
 
 .nossoEspaco-Title, h2 {
     text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 32px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
 }
 
 .nossoEspaco-icons {
@@ -14,7 +15,7 @@
     align-items: center;
     gap: 24px;
     margin-top: 40px;
-    padding: 0 65px;
+    
 }
 
 
@@ -23,7 +24,19 @@
 .icons-third {
     display: flex;
     text-align: center;
-    gap: 61px;
+    gap: 30px;
+
+}
+
+.icon-salaCabines, .icon-coworking, .icon-estacionamento, .icon-auditorio, .icon-endereco, .icon-wifi{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 10px #00000029;
+    border-radius: 8px;
+    opacity: 1;
+    width: 162px;
+    height: 206px;
+    padding: 1em;
+    
 }
 
 .wpp-title {

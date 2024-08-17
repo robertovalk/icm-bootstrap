@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Archivo';
+    
 }
 
 body {
     overflow-x: hidden;
+    font-family: 'open sans';
 }
 
 
@@ -22,6 +23,8 @@ html {
 
 ul, li {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 * a {

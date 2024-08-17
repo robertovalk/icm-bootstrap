@@ -1,11 +1,11 @@
 .container-services {
-    background-color: #AEB3B9;
+    background-color: #FFFFFF;
     padding-top: 3px;
     padding-bottom: 5px;
 }
 
 .services-text {
-  color: white;
+  color: #333333;
 }
 
 
@@ -13,6 +13,7 @@
     position: relative;
     width: 152px;
     height: 111px;
+    border-radius: 8px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -30,13 +31,26 @@
   }
 
   .service-caption span {
-    font-family: "Roboto", sans-serif;
-    font-size: 24px;
-    color: red;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
   }
 
   .service-icon {
     width: 24px;
     height: 24px;
     margin-right: 5px;
+  }
+
+  .botão-container_servico {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .botao {
+    background: #E6322B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 8px;
+    opacity: 1;
   }

@@ -4,16 +4,20 @@
     align-items: center;
     gap: 20px;
     padding: 40px 0;
-    background-color: #AEB3B9;
+    background-color: #FFFFFF;
 }
 
 .endereco-texto h2 {
     margin-bottom: 10px;
+    text-align: start;
+    padding: 0 2.6em;
+    color: #333333;
 }
 
 .endereco-texto p {
-    padding: 0 16px;
-    text-align: center;
+    padding: 0 4em;
+    text-align: start;
+    color: #333333;
 }
 
 .endereco-map {
